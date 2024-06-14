@@ -1,0 +1,24 @@
+﻿<div>
+    <h1> Student Attendance Report</h1>
+    <form action="/AttendanceReport/AttendanceOver70" method="post">
+        <div class="mb-3">
+            <label for="Course" class="form-label">Course</label>
+            <select class="form-select" name="CourseId">
+                <option value="x" selected>--Select Course--</option>
+                @foreach (var course in ViewBag.Courses)
+                {
+                    <option value="@course.Id">@course.Name</option>
+                }
+
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="Student" class="form-label">StudentID</label>
+            <input type="text" name="StudentId" class="form-control" placeholder="Enter Student ID" required>
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary" type="submit">Query</button>
+            <button class="btn btn-primary">Cancel</button>
+        </div>
+    </form>
+</div>

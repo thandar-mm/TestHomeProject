@@ -1,0 +1,97 @@
+﻿@model IList<StudentViewModel>
+<h1>Student List </h1>
+@if (TempData["info"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["info"]
+    </div>
+}
+@if (TempData["error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["error"]
+    </div>
+}
+
+<table class="table table-hover" id="StudentTable">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Student ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Date of Birth</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Address</th>
+            <th scope="col">Course Name</th>
+            <th scope="col">Action</th>
+            @* @if (User.IsInRole("HR"))
+            {
+            <th scope="col">Action</th>
+            } *@
+
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int index = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@index</th>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.DOB.ToString("dd-MM-yyyy")</td>
+                <td>@item.Gender</td>
+                <td>@item.Email</td>
+                <td>@item.Phone</td>
+                <td>@item.Address</td>
+                <td>@item.CourseInfo</td>
+                <td>
+                    <div class="btn btn-group p-1">
+                        <a href="/Student/Edit?id=@item.Id" class="btn btn-primary" role="button">Edit</a>
+                        <a class="btn btn-primary" asp-action="Delete" asp-controller="Student" asp-route-id="@item.Id" onclick="return confirm('Are you Sure to Delete this record?');">Delete</a>
+                        <a href="/Enrollment/Entry?id=@item.Id&courseId=@item.CourseId" class="btn btn-primary" role="button">Enroll</a>
+                        <a href="/Attendance/Entry?id=@item.Id&courseId=@item.CourseId" class="btn btn-primary" role="button">Attendance</a>
+                        @* @if (User.IsInRole("Admin"))
+                        {
+                            
+                            
+                        } *@
+                    </div>
+                </td>
+                @*  @if (User.IsInRole("HR"))
+            {
+            <td>
+            <div class="btn btn-group p-1">
+            <a href="/Position/Edit?id=@item.Id" class="btn btn-primary" role="button">Edit</a>
+            <a class="btn btn-primary" asp-action="Delete" asp-controller="Position" asp-route-id="@item.Id" onclick="return confirm('Are you Sure to Delete this record?');">Delete</a>
+            </div>
+            </td>
+            } *@
+            </tr>
+            index++;
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('#StudentTable').DataTable();
+    });
+</script>
+@* <script>
+    $(document).ready(function () {
+        var table = $('#StudentTable').DataTable();
+
+        $('table').on('click', 'tbody td', function () {
+            let column = table.column(this);
+            let cellData = table.cell(this).data();
+
+            column.search(cellData).draw();
+        });
+    });
+
+</script> *@

@@ -1,0 +1,72 @@
+﻿@model IList<EnrollmentViewModel>
+<h1>Enrollment List</h1>
+@if (TempData["info"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["info"]
+    </div>
+
+}
+@if (TempData["error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["error"]
+    </div>
+}
+
+<table class="table table-hover" id="EnrollTable">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">StudentID</th>
+            <th scope="col">Student Name</th>
+            <th scope="col">CourseID</th>
+            <th scope="col">Course Name</th>
+            <th scope="col">EnrollDate</th>
+            <th scope="col">Action</th>
+            @* @if (User.IsInRole("HR"))
+            {
+            <th scope="col">Action</th>
+            } *@
+
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int index = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@index</th>
+                <td>@item.StudentId</td>
+                <td>@item.StudentInfo</td>
+                <td>@item.CourseId</td>
+                <td>@item.CourseInfo</td>
+                <td>@item.EnrollDate.ToString("dd-MM-yyyy")</td>
+                <td>
+                    <div class="btn btn-group p-1">
+                        <a href="/Enrollment/Edit?id=@item.Id" class="btn btn-primary" role="button">Edit</a>
+                        <a class="btn btn-primary" asp-action="Delete" asp-controller="Enrollment" asp-route-id="@item.Id" onclick="return confirm('Are you Sure to Delete this record?');">Delete</a>
+                    </div>
+                </td>
+                @*  @if (User.IsInRole("HR"))
+            {
+            <td>
+            <div class="btn btn-group p-1">
+            <a href="/Position/Edit?id=@item.Id" class="btn btn-primary" role="button">Edit</a>
+            <a class="btn btn-primary" asp-action="Delete" asp-controller="Position" asp-route-id="@item.Id" onclick="return confirm('Are you Sure to Delete this record?');">Delete</a>
+            </div>
+            </td>
+            } *@
+            </tr>
+            index++;
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('#EnrollTable').DataTable();
+    });
+</script>

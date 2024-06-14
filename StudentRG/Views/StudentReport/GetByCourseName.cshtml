@@ -1,0 +1,24 @@
+﻿<h1> Student Details Report </h1>
+<div>
+    <form action="/StudentReport/GetByCourseName" method="post">
+        <div class="mb-3">
+            <label for="Course" class="form-label">Course</label>
+            <select class="form-select" name="CourseId">
+                <option value="x" selected>--Select Course--</option>
+                @foreach (var course in ViewBag.Course)
+                {
+                    <option value="@course.Id">@course.Name</option>
+                }
+
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="Gender" class="form-label">Gender</label>
+            <input type="text" name="Gender" class="form-control" placeholder="Enter Gender..">
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary" type="submit">Query</button>
+            <button class="btn btn-primary">Cancel</button>
+        </div>
+    </form>
+</div>

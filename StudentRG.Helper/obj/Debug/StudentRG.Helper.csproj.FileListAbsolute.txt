@@ -1,0 +1,6 @@
+D:\TestProject\StudentRG.Helper\bin\Debug\StudentRG.Helper.dll
+D:\TestProject\StudentRG.Helper\bin\Debug\StudentRG.Helper.pdb
+D:\TestProject\StudentRG.Helper\obj\Debug\StudentRG.Helper.csproj.AssemblyReference.cache
+D:\TestProject\StudentRG.Helper\obj\Debug\StudentRG.Helper.csproj.CoreCompileInputs.cache
+D:\TestProject\StudentRG.Helper\obj\Debug\StudentRG.Helper.dll
+D:\TestProject\StudentRG.Helper\obj\Debug\StudentRG.Helper.pdb

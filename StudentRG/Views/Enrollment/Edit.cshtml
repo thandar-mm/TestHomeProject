@@ -1,0 +1,64 @@
+﻿@model EnrollmentViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 class="text-center">Enrollment Edit</h1>
+</head>
+<body>
+    <div>
+        <form action="/Enrollment/Update" method="post">
+
+            @* <div class="mb-3">
+                
+                <label for="StudentId" class="form-label">StudentID</label>
+                <input type="text" name="StudentId" class="form-control" value="@Model.StudentId">
+            </div> *@
+            <div class="mb-3">
+                <input type="hidden" name="Id" value="@Model.Id" />
+                <label for="StudentId" class="form-label">StudentID</label>
+                <select class="form-select" name="StudentId">
+                    @foreach (var student in ViewBag.Students)
+                    {
+                        if (@student.Id == Model.StudentId)
+                        {
+                            <option value="@student.Id" selected>@student.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@student.Id">@student.Name</option>
+                        }
+                    }
+
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="CourseId" class="form-label">CourseID</label>
+                <select class="form-select" name="CourseId">
+                    @foreach (var course in ViewBag.Courses)
+                    {
+                        if (@course.Id == Model.CourseId)
+                        {
+                            <option value="@course.Id" selected>@course.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@course.Id">@course.Name</option>
+                        }
+                    }
+
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="EnrollDate" class="form-label">Enroll Date</label>
+                <input type="date" name="EnrollDate" class="form-control" value="@Model.EnrollDate.ToString("yyyy-MM-dd")">
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Update</button>
+                <!--<button class="btn btn-primary" href="/Course/List">Cancel</button>-->
+                <a href="/Enrollment/List" class="btn btn-primary" role="button">Cancel</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

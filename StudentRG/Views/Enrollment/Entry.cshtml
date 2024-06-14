@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <h1 class="text-center">Enrollment Entry</h1>
+</head>
+<body>
+    @* @if (ViewBag.info != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.info
+        </div>
+
+    } *@
+    <div>
+        <form action="/Enrollment/Entry" method="post">
+
+            <div class="mb-3">
+                <label for="StudentId" class="form-label">Student</label>
+                <select class="form-select" name="StudentId">
+                    {
+                    <option value="@ViewBag.Student.Id">@ViewBag.Student.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="CourseId" class="form-label">Course</label>
+                <select class="form-select" name="CourseId">
+                    {
+                    <option value="@ViewBag.Course.Id">@ViewBag.Course.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="EnrollDate" class="form-label">Date</label>
+                <input type="date" name="EnrollDate" class="form-control">
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Enroll</button>
+                <button class="btn btn-primary">Cancel</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

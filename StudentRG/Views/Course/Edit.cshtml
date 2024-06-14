@@ -1,0 +1,41 @@
+﻿@model CourseViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 class="text-center">Course Edit</h1>
+</head>
+<body>
+    <div>
+        <form action="/Course/Edit" method="post">
+
+            <div class="mb-3">
+                <input type="hidden" name="Id" value="@Model.Id" />
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" name="Name" class="form-control" value="@Model.Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="Description" class="form-label">Description</label>
+                <input type="tel" name="Description" class="form-control" value="@Model.Description" required>
+            </div>
+            @* <div class="mb-3">
+                <label for="PrerequisiteCourseId" class="form-label">PrerequisiteCourseId</label>
+                <input type="text" name="PrerequisiteCourseId" class="form-control" value="@Model.PrerequisiteCourseId">
+            </div> *@
+            <div class="mb-3">
+                <label for="StartDate" class="form-label">Date of Start</label>
+                <input type="date" name="StartDate" class="form-control" value="@Model.StartDate.ToString("yyyy-MM-dd")">
+            </div>
+            <div class="mb-3">
+                <label for="EndDate" class="form-label">Date of End</label>
+                <input type="date" name="EndDate" class="form-control" value="@Model.EndDate.ToString("yyyy-MM-dd")">
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Update</button>
+                <!--<button class="btn btn-primary" href="/Course/List">Cancel</button>-->
+                <a href="/Course/List" class="btn btn-primary" role="button">Cancel</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

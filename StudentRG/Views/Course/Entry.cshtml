@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <h1 class="text-center">Course Entry</h1>
+    </head>
+    <body>
+    <div>
+       
+        @if (ViewBag.info != null)
+        {
+            <div class="alert alert-danger">
+                @ViewBag.info
+            </div>
+
+        }
+        <form action="/Course/Entry" method="post">
+            
+            <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" name="Name" class="form-control" placeholder="Enter Course Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="Description" class="form-label">Description</label>
+                <input type="tel" name="Description" class="form-control" placeholder="Enter Description For Course">
+            </div>
+            @* <div class="mb-3">
+                <label for="PrerequisiteCourseId" class="form-label">PrerequisiteCourseId</label>
+                <input type="text" name="PrerequisiteCourseId" class="form-control" placeholder="Enter Prerequistites Course ID">
+            </div> *@
+            @* <div class="mb-3">
+                <label for="PrerequisiteCourseId" class="form-label">PrerequisiteCourseId</label>
+                <select class="form-select" name="PrerequisiteCourseId">
+                    <option value="x" selected>--Select PrerequisiteCourseId--</option>
+                    @foreach (var course in ViewBag.Courses)
+                    {
+                        <option value="@course.Id">@course.Name</option>
+                    }
+
+                </select>
+            </div> *@
+            <div class="mb-3">
+                <label for="StartDate" class="form-label">Date of Start</label>
+                <input type="date" name="StartDate" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="EndDate" class="form-label">Date of End</label>
+                <input type="date" name="EndDate" class="form-control">
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Entry</button>
+                <button class="btn btn-primary">Cancel</button>
+            </div>
+        </form>
+
+    </div>
+    </body>
+    </html>

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <h1 class="text-center">PrerequisiteCourse Entry</h1>
+</head>
+<body>
+    <div>
+        <form action="/PrerequisiteCourse/Entry" method="post">
+            <div class="mb-3">
+                <label for="PrerequisiteCourseId" class="form-label">PrerequisiteCourseId</label>
+                <select class="form-select" name="PrerequisiteCourseId">
+                    <option value="none" selected>--Select PrerequisiteCourseId--</option>
+                    @foreach (var precourse in ViewBag.PrerequisiteCourse)
+                    {
+                        <option value="@precourse.Id">@precourse.Name</option>
+                    }
+
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="Course" class="form-label">Course</label>
+                <select class="form-select" name="CourseId">
+                    <option value="x" selected>--Select Course--</option>
+                    @foreach (var course in ViewBag.Courses)
+                    {
+                        <option value="@course.Id">@course.Name</option>
+                    }
+
+                </select>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Entry</button>
+                <button class="btn btn-primary">Cancel</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

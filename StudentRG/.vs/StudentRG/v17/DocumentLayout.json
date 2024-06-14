@@ -1,0 +1,849 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TestProject\\StudentRG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\wwwroot\\rdlcreportfile\\attendancedetailreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:wwwroot\\rdlcreportfile\\attendancedetailreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\attendance\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\attendance\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\controllers\\studentreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:controllers\\studentreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\wwwroot\\rdlcreportfile\\studentdetailreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:wwwroot\\rdlcreportfile\\studentdetailreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\prerequisitecourse\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\prerequisitecourse\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\enrollment\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\enrollment\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\course\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\course\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\attendance\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\attendance\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\controllers\\attendancereportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:controllers\\attendancereportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\controllers\\prerequisitecoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:controllers\\prerequisitecoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\prerequisitecourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\prerequisitecourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\attendancereport\\attendanceover70.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\attendancereport\\attendanceover70.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\course\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\course\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\enrollment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\enrollment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\enrollment\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\enrollment\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\prerequisitecourse\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\prerequisitecourse\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\prerequisitecourse\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\prerequisitecourse\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\views\\studentreport\\getbycoursename.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:views\\studentreport\\getbycoursename.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\models\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:models\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\models\\datamodels\\attendanceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:models\\datamodels\\attendanceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\models\\datamodels\\studententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:models\\datamodels\\studententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\models\\datamodels\\courseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:models\\datamodels\\courseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|d:\\testproject\\studentrg\\models\\viewmodels\\attendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A6DBB1-D0DD-4149-801F-1A7E5A5A0264}|StudentRG.csproj|solutionrelative:models\\viewmodels\\attendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttendanceService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\AttendanceService.cs",
+              "RelativeDocumentMoniker": "Services\\AttendanceService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\AttendanceService.cs",
+              "RelativeToolTip": "Services\\AttendanceService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwEIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:23:30.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T00:41:51.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutUser.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutUser.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAG0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T11:27:00.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAQwDoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:29:47.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceDetailReport.rdlc [Design]",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\wwwroot\\RDLCReportFile\\AttendanceDetailReport.rdlc",
+              "RelativeDocumentMoniker": "wwwroot\\RDLCReportFile\\AttendanceDetailReport.rdlc",
+              "ToolTip": "D:\\TestProject\\StudentRG\\wwwroot\\RDLCReportFile\\AttendanceDetailReport.rdlc [Design]",
+              "RelativeToolTip": "wwwroot\\RDLCReportFile\\AttendanceDetailReport.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-06-14T01:57:04.523Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwFoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:12:28.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entry.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Attendance\\Entry.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\Entry.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Attendance\\Entry.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\Entry.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T05:31:16.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\PrerequisiteCourse\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\PrerequisiteCourse\\List.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\PrerequisiteCourse\\List.cshtml",
+              "RelativeToolTip": "Views\\PrerequisiteCourse\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T11:27:33.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Student\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\List.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Student\\List.cshtml",
+              "RelativeToolTip": "Views\\Student\\List.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:53:12.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Student\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Register.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Student\\Register.cshtml",
+              "RelativeToolTip": "Views\\Student\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:36:57.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAA+wGgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:00:58.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\IStudentService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Services\\IStudentService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:42:55.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Services\\CourseService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\CourseService.cs",
+              "RelativeToolTip": "Services\\CourseService.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAywFEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:10:41.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentReportController.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Controllers\\StudentReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentReportController.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Controllers\\StudentReportController.cs",
+              "RelativeToolTip": "Controllers\\StudentReportController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAewCcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T05:08:23.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentDetailReport.rdlc [Design]",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\wwwroot\\RDLCReportFile\\StudentDetailReport.rdlc",
+              "RelativeDocumentMoniker": "wwwroot\\RDLCReportFile\\StudentDetailReport.rdlc",
+              "ToolTip": "D:\\TestProject\\StudentRG\\wwwroot\\RDLCReportFile\\StudentDetailReport.rdlc [Design]",
+              "RelativeToolTip": "wwwroot\\RDLCReportFile\\StudentDetailReport.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-06-13T15:31:50.734Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:56:58.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AttendanceReportController.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Controllers\\AttendanceReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceReportController.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Controllers\\AttendanceReportController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceReportController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T05:08:45.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Enrollment\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollment\\List.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Enrollment\\List.cshtml",
+              "RelativeToolTip": "Views\\Enrollment\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T13:39:07.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Course\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\List.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Course\\List.cshtml",
+              "RelativeToolTip": "Views\\Course\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T11:27:30.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Attendance\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\List.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Attendance\\List.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T13:35:11.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnrollmentController.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "Controllers\\EnrollmentController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswFkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:54:48.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PrerequisiteCourseController.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Controllers\\PrerequisiteCourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrerequisiteCourseController.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Controllers\\PrerequisiteCourseController.cs",
+              "RelativeToolTip": "Controllers\\PrerequisiteCourseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:41:35.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAFoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:03:17.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:09:25.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T01:55:17.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T01:53:37.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\EnrollmentService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\EnrollmentService.cs",
+              "RelativeToolTip": "Services\\EnrollmentService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:56:36.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PrerequisiteCourseService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\PrerequisiteCourseService.cs",
+              "RelativeDocumentMoniker": "Services\\PrerequisiteCourseService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\PrerequisiteCourseService.cs",
+              "RelativeToolTip": "Services\\PrerequisiteCourseService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:15:34.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AttendanceOver70.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\AttendanceReport\\AttendanceOver70.cshtml",
+              "RelativeDocumentMoniker": "Views\\AttendanceReport\\AttendanceOver70.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\AttendanceReport\\AttendanceOver70.cshtml",
+              "RelativeToolTip": "Views\\AttendanceReport\\AttendanceOver70.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T07:50:15.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAYwE0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T01:01:41.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\TestProject\\StudentRG\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T00:43:40.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Attendance\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\Edit.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Attendance\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T08:40:31.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Edit.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Course\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T14:48:18.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Entry.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Course\\Entry.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Entry.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Course\\Entry.cshtml",
+              "RelativeToolTip": "Views\\Course\\Entry.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:38:53.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Enrollment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollment\\Edit.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Enrollment\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Enrollment\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T11:00:35.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Entry.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Enrollment\\Entry.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollment\\Entry.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Enrollment\\Entry.cshtml",
+              "RelativeToolTip": "Views\\Enrollment\\Entry.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:59:17.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\PrerequisiteCourse\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\PrerequisiteCourse\\Edit.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\PrerequisiteCourse\\Edit.cshtml",
+              "RelativeToolTip": "Views\\PrerequisiteCourse\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:38:22.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Entry.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\PrerequisiteCourse\\Entry.cshtml",
+              "RelativeDocumentMoniker": "Views\\PrerequisiteCourse\\Entry.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\PrerequisiteCourse\\Entry.cshtml",
+              "RelativeToolTip": "Views\\PrerequisiteCourse\\Entry.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:37:44.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T08:42:35.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetByCourseName.cshtml",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Views\\StudentReport\\GetByCourseName.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentReport\\GetByCourseName.cshtml",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Views\\StudentReport\\GetByCourseName.cshtml",
+              "RelativeToolTip": "Views\\StudentReport\\GetByCourseName.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:13:34.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAttendanceService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\IAttendanceService.cs",
+              "RelativeDocumentMoniker": "Services\\IAttendanceService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\IAttendanceService.cs",
+              "RelativeToolTip": "Services\\IAttendanceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:43:16.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Repositories\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AttendanceRepository.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Repositories\\AttendanceRepository.cs",
+              "RelativeToolTip": "Repositories\\AttendanceRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:19:16.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Models\\ViewModels\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\StudentViewModel.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Models\\ViewModels\\StudentViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\StudentViewModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:13:55.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:22:18.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Services\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Services\\ICourseService.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Services\\ICourseService.cs",
+              "RelativeToolTip": "Services\\ICourseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:24:37.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StudentEntity.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Models\\DataModels\\StudentEntity.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\StudentEntity.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Models\\DataModels\\StudentEntity.cs",
+              "RelativeToolTip": "Models\\DataModels\\StudentEntity.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:22:03.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AttendanceEntity.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Models\\DataModels\\AttendanceEntity.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\AttendanceEntity.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Models\\DataModels\\AttendanceEntity.cs",
+              "RelativeToolTip": "Models\\DataModels\\AttendanceEntity.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:38:32.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IStudentRepository.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\IStudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:05:35.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CourseEntity.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Models\\DataModels\\CourseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\CourseEntity.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Models\\DataModels\\CourseEntity.cs",
+              "RelativeToolTip": "Models\\DataModels\\CourseEntity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T13:17:48.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AttendanceViewModel.cs",
+              "DocumentMoniker": "D:\\TestProject\\StudentRG\\Models\\ViewModels\\AttendanceViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\AttendanceViewModel.cs",
+              "ToolTip": "D:\\TestProject\\StudentRG\\Models\\ViewModels\\AttendanceViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\AttendanceViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIA5wBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:38:46.392Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

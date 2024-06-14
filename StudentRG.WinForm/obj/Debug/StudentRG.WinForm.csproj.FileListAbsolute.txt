@@ -1,0 +1,10 @@
+D:\TestProject\StudentRG.WinForm\obj\Debug\StudentRG.WinForm.csproj.AssemblyReference.cache
+D:\TestProject\StudentRG.WinForm\obj\Debug\StudentRG.WinForm.csproj.CoreCompileInputs.cache
+D:\TestProject\StudentRG.WinForm\bin\Debug\StudentRG.WinForm.exe.config
+D:\TestProject\StudentRG.WinForm\bin\Debug\StudentRG.WinForm.exe
+D:\TestProject\StudentRG.WinForm\bin\Debug\StudentRG.WinForm.pdb
+D:\TestProject\StudentRG.WinForm\bin\Debug\StudentRG.Helper.dll
+D:\TestProject\StudentRG.WinForm\bin\Debug\StudentRG.Helper.pdb
+D:\TestProject\StudentRG.WinForm\obj\Debug\StudentR.3C465B1D.Up2Date
+D:\TestProject\StudentRG.WinForm\obj\Debug\StudentRG.WinForm.exe
+D:\TestProject\StudentRG.WinForm\obj\Debug\StudentRG.WinForm.pdb

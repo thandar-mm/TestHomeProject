@@ -1,0 +1,79 @@
+﻿@model StudentViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 class="text-center">Student Registration Form</h1>
+</head>
+<body>
+    <div>
+        <form action="/Student/Update" method="post">
+            <div class="mb-3">
+                <input type="hidden" name="Id" value="@Model.Id" />
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" name="Name" class="form-control" value="@Model.Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" name="Email" class="form-control" value="@Model.Email">
+            </div>
+            <div class="mb-3">
+                <label for="DOB" class="form-label">Date of Birth</label>
+                <input type="date" name="DOB" class="form-control" value="@Model.DOB.ToString("yyyy-MM-dd")">
+            </div>
+
+            <div class="mb-3">
+                <label for="Course" class="form-label">Course</label>
+                <select class="form-select" name="CourseId">
+                    <option value="x" selected>--Select Course--</option>
+                    @foreach (var course in ViewBag.Courses)
+                    {
+                        if (@course.Id == Model.CourseId)
+                        {
+                            <option value="@course.Id" selected>@course.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@course.Id">@course.Name</option>
+                        }
+                    }
+
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Gender" value="Male" @(Model.Gender == "Male" ? "Checked" : "")>
+                    <label class="form-check-label" for="Male">
+                        Male
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Gender" value="FeMale" @(Model.Gender == "FeMale" ? "Checked" : "")>
+                    <label class="form-check-label" for="FeMale">
+                        FeMale
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Gender" value="Other" @(Model.Gender == "Other" ? "Checked" : "")>
+                    <label class="form-check-label" for="Other">
+                        Other
+                    </label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="Phone" class="form-label">Phone</label>
+                <input type="text" name="Phone" class="form-control" value="@Model.Phone">
+            </div>
+            <div class="mb-3">
+                <label for="Address" class="form-label">Address</label>
+                <textarea class="form-control" rows="3" name="Address">@Model.Address</textarea>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Update</button>
+                <!--<button class="btn btn-primary" href="/Course/List">Cancel</button>-->
+                <a href="/Student/List" class="btn btn-primary" role="button">Cancel</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <h1 class="text-center">Attendance Entry</h1>
+</head>
+<body>
+    <div>
+        <form action="/Attendance/Entry" method="post">
+
+            @* <div class="mb-3">
+                <label for="Student" class="form-label">StudentID</label>
+                <input type="text" name="StudentId" class="form-control" placeholder="Enter Student ID" required>
+            </div>
+            <div class="mb-3">
+                <label for="Course" class="form-label">Course</label>
+                <select class="form-select" name="CourseId">
+                    <option value="x" selected>--Select Course--</option>
+                    @foreach (var course in ViewBag.Courses)
+                    {
+                        <option value="@course.Id">@course.Name</option>
+                    }
+                </select>
+            </div> *@
+            <div class="mb-3">
+                <label for="StudentId" class="form-label">Student</label>
+                <select class="form-select" name="StudentId">
+                    {
+                    <option value="@ViewBag.Student.Id">@ViewBag.Student.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="CourseId" class="form-label">Course</label>
+                <select class="form-select" name="CourseId">
+                    {
+                    <option value="@ViewBag.Course.Id">@ViewBag.Course.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="Date" class="form-label">Date</label>
+                <input type="date" name="Date" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="Status" class="form-label">Status</label>
+                <select class="form-select" name="Status">
+                    <option value="x" selected>--Select Status--</option>
+                    <option value="true">Present</option>
+                    <option value="false">Absent</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Entry</button>
+                <button class="btn btn-primary">Cancel</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
